@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    src: local("prepros/fonts/Roboto-Regular.woff") format("woff")
+  }
+
+  @font-face {
+    font-family: "Montserrat-Regular";
+    src: local("prepros/fonts/Montserrat-Regular.woff") format("woff")
+  }
+  @font-face {
+    font-family: "Montserrat-Light";
+    src: local("prepros/fonts/Montserrat-Light.woff") format("woff")
+  }
+  @font-face {
+    font-family: "Merriweather-LightItalic";
+    src: local("prepros/fonts/Merriweather-LightItalic.woff") format("woff")
+  }
+  @font-face {
+    font-family: "HelveticaNeueLTProRoman";
+    src: local("prepros/fonts/HelveticaNeueLTProRoman.woff") format("woff")
+  }
+  @font-face {
+    font-family: "HelveticaNeueLTProMd";
+    src: local("prepros/fonts/HelveticaNeueLTProMd.woff") format("woff")
+  }
+  @font-face {
+    font-family: "HelveticaNeueLTProLt";
+    src: local("prepros/fonts/HelveticaNeueLTProLt.woff") format("woff")
+  }

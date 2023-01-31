@@ -1,0 +1,56 @@
+//h1 
+    color: red 
+    text-transform: uppercase
+    font-family: HelveticaNeueLTProLt
+    span 
+        color: blue 
+        font-size: 150%
+        cursor: pointer
+        &:hover
+            color:red
+        @media screen and (max-width: 900px)
+            color: green
+//h2
+    font-family:HelveticaNeueLTProMd
+//h3
+    font-family:HelveticaNeueLTProRoman
+//h4
+    font-family:Merriweather-LightItalic
+//h5
+    font-family:Montserrat-Light
+//h6
+    font-family:Montserrat-Regular
+*
+    margin: 0
+    padding: 0
+header
+    border: 1px solid red
+    width: 60%
+    margin: 0 auto
+    nav
+        ul
+            display: grid
+            grid-template-columns: repeat(7, 1fr)
+            list-style-type: none 
+            a
+                text-decoration: none
+                font-family: roboto
+                font-size: 13px
+                font-spacing: 0.6em
+                color: #989696
+            li.active
+                a
+                    color #010101
+                        h3
+                            text-align: center
+                            font-family: Merriweather-LightItalic
+                            font-size: 16px
+                            font-neiht: 300
+                            font-style: italic
+                            letter-spacing: 0.03em
+                            color: 898888
+
+                        nav
+                            ul
+                                display: grid
+                                grid: 
